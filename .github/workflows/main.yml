@@ -6,4 +6,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run Tests
-      run: python -m unittest test_app.py
+      run: python -m unittest test_app.pyg
